@@ -1,0 +1,125 @@
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li,a{
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Sofia Pro;
+}
+
+.container{
+    padding: 0 12%;
+}
+
+/* TITLE & TEXT */
+
+h1{
+    font-size: 85px;
+    line-height: 85px;
+}
+
+p{
+    font-size: 20px;
+}
+
+/* BUTTONS */
+
+.btn{
+    font-size: 20px;
+    padding: 13px 22px;
+    text-align: center;
+    border-radius: 17px;
+    display: inline-block;
+}
+
+.btn-transparent{
+    border: 3px solid #000;
+    color: #000;
+}
+
+.btn-filled{
+    background-color: #372E7F;
+    color: #F9F0C3;
+}
+
+/* NAVIGUATION */
+
+.nav-bar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.nav-links{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-links li{
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 90px;
+    font-size: 19px;
+}
+
+.nav-links a{
+    color: #000;
+}
+
+/* LANDING */
+
+#landing{
+    height: 85vh;
+}
+
+.landing-background{
+    background-image: url(assets/bg.jpg);
+    background-position: top right;
+    background-size: 68%;
+    background-repeat: no-repeat;
+}
+
+.hero-content{
+    margin-top: 8%;
+}
+
+.hero-content .description{
+    margin-top: 55px;
+    margin-bottom: 56px;
+    width: 385px;
+}
+
+/* OFFERS */
+
+
+.offers-list{
+    display: flex;
+}
+
+.offer-item img{
+    margin-bottom: 30px;
+    display: block;
+    height: 85px;
+    width: auto;
+}
+
+.offer-item{
+    justify-content: space-around;
+}
+
+.offer-item .description{
+    width: 85%;
+}
+
+
+
+
